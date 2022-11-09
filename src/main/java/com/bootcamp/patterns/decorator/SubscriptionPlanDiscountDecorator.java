@@ -34,7 +34,7 @@ public class SubscriptionPlanDiscountDecorator extends SubscriptionPlanDecorator
         SubscriptionPlan postpaidStandardSubscriptionPlan = new StandardSubscriptionPlan();
         SubscriptionPlan tenPercentDecorator = new SubscriptionPlanDiscountDecorator(postpaidStandardSubscriptionPlan);
         SubscriptionPlan tenPercentDecorator2 = new SubscriptionPlanDiscountDecorator(tenPercentDecorator);
-        SubscriptionPlan unlimitedDataDecorator = new SubscriptionPlanDiscountDecorator(tenPercentDecorator2);
+        SubscriptionPlan unlimitedDataDecorator = new SubscriptionPlanUnlimitedDataDecorator(tenPercentDecorator2);
         unlimitedDataDecorator.activate();
     }
 }
