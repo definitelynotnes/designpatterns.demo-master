@@ -7,6 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class MessageFrame extends JFrame {
+    private static final long serialVersionUID = 621520174016304822L;
     private JButton button;
     private JPanel panel;
     public MessageFrame() {
