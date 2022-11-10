@@ -4,7 +4,7 @@ public class DogContest {
     private NewTrick dogWithNewTrick;
     
     public void join(NewTrick dogwithNewTrick){
-        this.dogWithNewTrick = dogWithNewTrick;
+        this.dogWithNewTrick = dogwithNewTrick;
     }
     
     public void perform() {
